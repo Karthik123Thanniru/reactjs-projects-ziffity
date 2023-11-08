@@ -44,17 +44,17 @@ const HomePage = () => {
           {redditData.data.children.map((post, index) => (
             index === selectedTopicKey && (
               <li className="post" key={index}>
-                <p className="credit-bar">
+                <div className="credit-bar">
                   <img
                     className="subreddit-icon"
                     src="https://styles.redditmedia.com/t5_5s5qbl/styles/communityIcon_hkq7zlki8ug81.png"
                     alt="subreddit icon"
                   />
-                  <div className="meta-info">
+                  <p className="meta-info">
                     <span>{post.data.subreddit_name_prefixed}</span>
                     <span>{post.data.author}</span>
-                  </div>
-                </p>
+                  </p>
+                </div>
                 <h2>{post.data.title}</h2>
                 <div
                   className="post-content"
