@@ -1,0 +1,22 @@
+.container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+.post {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
