@@ -1,0 +1,14 @@
+**This task demonstrates how to fetch product data from the Magento GraphQL API and list it in a Next.js page. Additionally, it shows how to use a reverse proxy to load Magento Product Detail Pages (PDP) within Next.js.**
+
+
+**step1:-**used axios to get the graphql api data from the magento2 endpoint.
+
+**step2:-**In the endpoint of m2 graphql api ,we wrote a query for the fetching the particular category data from the end point.
+
+**step3:-**The queries where present in queries folder and we created environment variable where i stored the link of the endpoint
+
+**step4:-**when we click on the respective product,using using reverse proxy the url will hit the m2 respective pdp page
+
+**step5:-**The reverse proxy info where present in the next.config.js file
+
+
